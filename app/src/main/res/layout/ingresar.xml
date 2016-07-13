@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Bienvenido"
+        android:id="@+id/textViewBienvenida"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:textSize="50dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/etContraseña"
+        android:layout_toRightOf="@+id/textViewContraseña"
+        android:layout_marginTop="290dp"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/password"
+        android:id="@+id/textViewContraseña"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="300dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etUsuario"
+        android:layout_below="@id/textViewBienvenida"
+        android:layout_alignLeft="@id/etContraseña"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/nombreUsuario"
+        android:id="@+id/textViewNombre"
+        android:layout_alignRight="@id/textViewContraseña"
+        android:layout_marginTop="170dp" />
+
+    <Button
+        android:layout_width="@dimen/boton"
+        android:layout_height="wrap_content"
+        android:text="@string/registrarse"
+        android:id="@+id/buttonRegistrarse"
+        android:layout_marginTop="72dp"
+        android:layout_below="@id/textViewContraseña"
+        android:layout_alignLeft="@id/textViewContraseña"
+        android:onClick="entrar"/>
+
+    <Button
+        android:layout_width="@dimen/boton"
+        android:layout_height="wrap_content"
+        android:text="@string/entrar"
+        android:id="@+id/buttonEntrar"
+        android:layout_alignTop="@id/buttonRegistrarse"
+        android:layout_alignRight="@id/etContraseña"
+        android:onClick="entrar"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fbloginBT"
+        style="@style/com_facebook_loginview_default_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonEntrar"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

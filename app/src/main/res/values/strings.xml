@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Conecta4 </string>
+    <string name="titulo">CONECTA 4</string>
+    <string name="contentDescription">Botón de Conecta 4</string>
+    <string name="nosepuedecolocarficha">No se puede colocar ficha</string>
+    <string name="fin_del_juego">La partida ha terminado</string>
+    <string name="Bienvenido">Bienvenido</string>
+    <string name="Pulse">Pulse para jugar</string>
+    <string name="vs_maquina">Jugador vs Maquina</string>
+    <string name="vs_jugador">Jugador vs Jugador</string>
+    <string name="titulo_dialogo">Se acabó la partida</string>
+    <string name="mensaje_dialogo">Quieres jugar otra partida?</string>
+    <string name="about">Acerca de</string>
+    <string name="preferences">Ajustes</string>
+    <string name="aboutMessage">Este juego consiste en conectar 4 fichas del mismo color en fila, en columna o en diagonal.
+        				     Solo puedes poner las fichas en la primera fila o encima de otras fichas.
+         					 El que antes consiga conectar las 4 fichas gana.
+         					 ¿Facil verdad?</string>
+    <string name="firstCategoryPrefTitle">Datos personales</string>
+    <string name="editTextPrefTitle">Nombre del jugador</string>
+    <string name="editTextPrefSummary">Pulse para teclear el nombre del jugador</string>
+    <string name="secondCategoryPrefTitle">Ajustes del juego</string>
+    <string name="listPrefTitle">Color de las fichas</string>
+    <string name="listPrefTitle1">Color del jugador 1</string>
+    <string name="listPrefTitle2">Color del jugador 2</string>
+    <string name="listPrefSummary">Pulse para mostrar la lista</string>
+    <string name="checBoxPrefTitle">Música de fondo</string>
+    <string name="checBoxPrefSummary">Marque si desea escuchar música</string>
+    <string name="listPrefDialogTitle">Elija un color</string>
+    <string name="preferencesText">Ajustes</string>
+    <string name="cambiaColor">Los dos jugadores tienen el mismo color, cambielo por favor</string>
+    <string name="password">Contraseña</string>
+    <string name="nombreUsuario">Usuario</string>
+    <string name="registrarse">Registrate</string>
+    <string name="entrar">Entrar</string>
+    <string name="formulario">Formulario</string>
+    <string name="edad">Edad :</string>
+    <string name="Sunombre">Nombre</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="usuario">Usuario</string>
+    <string name="malusuario">El usuario o la contraseña es incorrecto</string>
+    <string name="registrado">Usuario creado</string>
+    <string name="notoques">Esta columna esta llena, pulse otra</string>
+    <string name="facebook_app_id">849188085200680</string>
+</resources>

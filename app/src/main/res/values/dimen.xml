@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name = "boton">115dp</dimen>
+    <dimen name = "izquierda">20dp</dimen>
+    <dimen name = "arriba">20dp</dimen>
+    <dimen name = "grande">50dp</dimen>
+    <dimen name = "normal">15dp</dimen>
+    <dimen name = "radio"> 16dip</dimen>
+
+</resources>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/secondCategoryPrefTitle">
+   		<ListPreference 
+            android:key="color_fichas1"
+            android:title="@string/listPrefTitle1"
+            android:summary="@string/listPrefSummary"
+            android:entries="@array/fichas1"
+            android:entryValues="@array/codigosFichas1"
+            android:dialogTitle="@string/listPrefDialogTitle"/>
+   		<ListPreference 
+            android:key="color_fichas2"
+            android:title="@string/listPrefTitle2"
+            android:summary="@string/listPrefSummary"
+            android:entries="@array/fichas2"
+            android:entryValues="@array/codigosFichas2"
+            android:dialogTitle="@string/listPrefDialogTitle"/>
+    	<CheckBoxPreference 
+            android:key="music"
+            android:title="@string/checBoxPrefTitle"
+            android:summary="@string/checBoxPrefSummary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

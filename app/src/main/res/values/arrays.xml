@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fichas">
+        <item>Amarillo</item>
+        <item>Verde</item>
+        <item>Morado</item>
+        <item>Negro</item>
+        <item>Gris</item>
+        <item>Azul</item>
+        <item>Naranja</item>
+
+    </string-array>
+    <string-array name="codigosFichas">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+    </string-array>
+</resources>

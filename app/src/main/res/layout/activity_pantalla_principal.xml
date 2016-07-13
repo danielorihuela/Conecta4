@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:text="@string/Bienvenido"
+        android:textSize="@dimen/grande"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Pulse"
+        android:textSize="@dimen/normal"
+        android:layout_below="@+id/texto1"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:text="@string/vs_maquina"
+        android:textSize="@dimen/normal"
+        android:onClick="segundaPantalla"
+        android:layout_below="@+id/texto2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:text="@string/vs_jugador"
+        android:textSize="@dimen/normal"
+        android:onClick="segundaPantalla"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Estadisticas"
+        android:textSize="@dimen/normal"
+        android:onClick="segundaPantalla"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
